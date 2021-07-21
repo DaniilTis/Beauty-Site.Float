@@ -152,7 +152,7 @@ body {
 	background-color: #e5e5e5;
 }
 
-.main-title {
+.chair-title {
 	color: rgba(0, 0, 0, 1);
 	font-size: 24px;
 	line-height: 28px;
@@ -210,3 +210,70 @@ body {
 	margin-right: 30px;
 }
 
+.chair-list {
+	margin-bottom: 100px;
+}
+
+.card-left {
+	float: left;
+	background-color: #f13c6e;
+	width: 540px;
+	height: 212px;
+	background-image: url("../images/Group\ \(2\).png");
+	background-repeat: no-repeat;
+	background-position: 358px 59px;
+	margin-right: 30px;
+}
+
+.main-title {
+	color: white;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	margin: 35px 65px 25px 40px;
+}
+
+.main-text {
+	color: white;
+	font-size: 14px;
+	line-height: 20px;
+	width: 231px;
+	margin-right: 85px;
+	margin-left: 40px;
+	margin-bottom: 25px;
+}
+
+.form {
+	display: inline-block;
+	outline: none;
+	border: none;
+	border-radius: 30px;
+	padding: 9px 100px 9px 25px;
+	margin-right: 90px;
+	margin-left: 40px;
+	margin-bottom: 35px;
+}
+
+.form::placeholder {
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(196, 196, 196, 1);
+}
+
+.card-right {
+	float: right;
+	background-color: #f13c6e;
+	width: 540px;
+	height: 212px;
+	background-image: url("../images/Vector\ \(2\).png");
+	background-repeat: no-repeat;
+	background-position: 330px 59px;
+}
+
+.button-map {
+	margin: 25px 96px 35px 40px;
+}
+
+.main-cards {
+	margin-bottom: 100px;
+}
