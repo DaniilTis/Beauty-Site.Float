@@ -279,11 +279,9 @@ body {
 	margin-bottom: 100px;
 }
 
-/* .content-container {
-	height: 357px;
-	width: 1100px;
-	background-color: white;
-} */
+.content-container {
+	margin-bottom: 80px;
+}
 
 .img {
 	margin-right: 1px;
