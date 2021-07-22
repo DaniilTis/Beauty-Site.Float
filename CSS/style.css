@@ -42,6 +42,10 @@ body {
 	float: right;
 }
 
+.header-container {
+	margin-bottom: 40px;
+}
+
 .header-block {
 	margin-bottom: 20px;
 }
@@ -54,15 +58,20 @@ body {
 	letter-spacing: 0.1em;
 }
 
+.logo-icon-img {
+	margin: 20px 20px 20px 0px;
+	height: 80px;
+	width: 80px;
+}
+
 .logo-text::before {
-	content: " ";
-	display: inline-block;
+	content: "";
 	height: 80px;
 	width: 80px;
 	background-image: url("../images/logo.png");
 	background-position: 0 0px;
 	background-repeat: no-repeat;
-	margin-right: 20px;
+	/* margin: 20px 20px 20px 0px; */
 }
 
 .phone {
@@ -150,6 +159,8 @@ body {
 .main-bg {
 	padding-top: 80px;
 	background-color: #e5e5e5;
+	padding-bottom: 80px;
+	margin-bottom: 60px;
 }
 
 .chair-title {
@@ -292,4 +303,42 @@ body {
 
 .img-item {
 	display: inline-block;
+}
+
+.chair-list-fix {
+	margin-bottom: 0px;
+}
+
+.footer-title {
+	font-weight: 500;
+	font-size: 16px;
+	width: 99px;
+	margin-right: 185px;
+	margin-bottom: 30px;
+}
+
+.footer-border {
+	border: 1px solid #efefef;
+	width: 255px;
+	margin-bottom: 25px;
+}
+
+.footer-link {
+	color: rgba(130, 130, 130, 1);
+}
+
+.footer-item {
+	margin-bottom: 19px;
+}
+
+.footer-list {
+	margin-bottom: 60px;
+}
+
+.border-footer {
+	margin-bottom: 37px;
+}
+
+.footer-float-left {
+	float: left;
 }
