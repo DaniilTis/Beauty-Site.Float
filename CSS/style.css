@@ -43,11 +43,11 @@ body {
 }
 
 .header-container {
-	margin-bottom: 40px;
+	/* margin-bottom: 40px; */
 }
 
 .header-block {
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 }
 
 .logo-text {
@@ -56,22 +56,11 @@ body {
 	line-height: 42px;
 	font-weight: 700;
 	letter-spacing: 0.1em;
+	/* margin-bottom: -30px; */
 }
 
 .logo-icon-img {
-	margin: 20px 20px 20px 0px;
-	height: 80px;
-	width: 80px;
-}
-
-.logo-text::before {
-	content: "";
-	height: 80px;
-	width: 80px;
-	background-image: url("../images/logo.png");
-	background-position: 0 0px;
-	background-repeat: no-repeat;
-	/* margin: 20px 20px 20px 0px; */
+	margin: -20px 0px 20px 0px;
 }
 
 .phone {
@@ -327,6 +316,10 @@ body {
 	color: rgba(130, 130, 130, 1);
 }
 
+.footer-float-left {
+	float: left;
+}
+
 .footer-item {
 	margin-bottom: 19px;
 }
@@ -339,6 +332,50 @@ body {
 	margin-bottom: 37px;
 }
 
-.footer-float-left {
+.footer-item-left {
 	float: left;
+	margin-right: 20px;
+	border: 2px solid #f13c6e;
+	border-radius: 50%;
+}
+
+.footer-list-icon li:nth-child(1) {
+	padding: 15px 12px 15px 12px;
+}
+
+.footer-list-icon li:nth-child(2) {
+	padding: 15px 8px 15px 8px;
+}
+
+.footer-list-icon li:nth-child(3) {
+	padding: 13px 17px 13px 17px;
+}
+
+.footer-list-icon li:nth-child(4) {
+	padding: 12px 12px 12px 12px;
+}
+
+.footer-content {
+	padding-bottom: 38px;
+}
+
+.footer-bg {
+	background-color: rgba(239, 239, 239, 1);
+}
+
+.footer-text-left {
+	float: left;
+}
+
+.footer-text-right {
+	float: right;
+}
+
+.footer-text {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: rgba(130, 130, 130, 1);
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 400;
 }
