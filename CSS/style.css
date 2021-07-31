@@ -286,14 +286,23 @@ body {
 	margin-bottom: 80px;
 }
 
+.img-link {
+	display: inline-block;
+	height: 119px;
+	width: 275px;
+}
+
 .img {
-	margin-right: 1px;
-	margin-bottom: 1px;
 	background-color: white;
 	padding: 35px 69px 35px 60px;
+	width: 275px;
 }
 
 .img-item {
+	margin-bottom: 0px;
+	margin-right: 1px;
+	width: 275px;
+	height: 119px;
 	display: inline-block;
 }
 
