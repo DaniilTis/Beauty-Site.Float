@@ -42,13 +42,10 @@ body {
 	float: right;
 }
 
-.header-container {
-	/* margin-bottom: 40px; */
-}
-
 .header-block {
 	border-bottom: 1px solid #efefef;
 	margin-bottom: 30px;
+	padding-top: 20px;
 }
 
 .logo-text {
@@ -57,11 +54,10 @@ body {
 	line-height: 42px;
 	font-weight: 700;
 	letter-spacing: 0.1em;
-	/* margin-bottom: -30px; */
 }
 
 .logo-icon-img {
-	margin: -40px 0px 20px 0px;
+	margin: -20px 0px 20px 0px;
 }
 
 .phone {
